@@ -1,0 +1,19 @@
+server: mpr01mon04
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon04:/home/ccarp001/
+The authenticity of host 'mpr01mon04 (10.106.12.238)' can't be established.
+RSA key fingerprint is 9e:ad:d7:0b:ed:d4:66:f2:6f:52:5e:ff:e7:ca:35:01.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'mpr01mon04,10.106.12.238' (RSA) to the list of known hosts.
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon04
+Unauthorized use of this system is prohibited.
+today01
+mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: kpr01rdsky
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01rdsky:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+yes
+spawn ssh -t kpr01rdsky
+Unauthorized use of this system is prohibited.
+today01
+mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;

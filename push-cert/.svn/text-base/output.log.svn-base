@@ -1,0 +1,678 @@
+server: kdr01olr01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kdr01olr01:/home/ccarp001/
+ssh: Could not resolve hostname kdr01olr01: hostname nor servname provided, or not known
+lost connection
+server: kpr01adp01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01adp01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01adp01's password: 
+Permission denied, please try again.
+ccarp001@kpr01adp01's password: spawn ssh -t kpr01adp01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01adp01's password: 
+Permission denied, please try again.
+ccarp001@kpr01adp01's password: 
+Permission denied, please try again.
+ccarp001@kpr01adp01's password: server: kpr01adp02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01adp02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01adp02's password: 
+Permission denied, please try again.
+ccarp001@kpr01adp02's password: spawn ssh -t kpr01adp02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01adp02's password: 
+Permission denied, please try again.
+ccarp001@kpr01adp02's password: 
+Permission denied, please try again.
+ccarp001@kpr01adp02's password: server: kpr01bsmgt
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01bsmgt:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01bsmgt's password: 
+Permission denied, please try again.
+ccarp001@kpr01bsmgt's password: spawn ssh -t kpr01bsmgt mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01bsmgt's password: 
+Permission denied, please try again.
+ccarp001@kpr01bsmgt's password: 
+Permission denied, please try again.
+ccarp001@kpr01bsmgt's password: server: kpr01btadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01btadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01btadm's password: 
+Permission denied, please try again.
+ccarp001@kpr01btadm's password: spawn ssh -t kpr01btadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01btadm's password: 
+Permission denied, please try again.
+ccarp001@kpr01btadm's password: 
+Permission denied, please try again.
+ccarp001@kpr01btadm's password: server: kpr01btman
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01btman:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01btman's password: 
+Permission denied, please try again.
+ccarp001@kpr01btman's password: spawn ssh -t kpr01btman mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01btman's password: 
+Permission denied, please try again.
+ccarp001@kpr01btman's password: 
+Permission denied, please try again.
+ccarp001@kpr01btman's password: server: kpr01btper
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01btper:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01btper's password: 
+Permission denied, please try again.
+ccarp001@kpr01btper's password: spawn ssh -t kpr01btper mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01btper's password: 
+Permission denied, please try again.
+ccarp001@kpr01btper's password: 
+Permission denied, please try again.
+ccarp001@kpr01btper's password: server: kpr01bttra
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01bttra:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01bttra's password: 
+Permission denied, please try again.
+ccarp001@kpr01bttra's password: spawn ssh -t kpr01bttra mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01bttra's password: 
+Permission denied, please try again.
+ccarp001@kpr01bttra's password: 
+Permission denied, please try again.
+ccarp001@kpr01bttra's password: server: kpr01frmwk
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01frmwk:/home/ccarp001/
+server: kpr01genrs
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01genrs:/home/ccarp001/
+spawn ssh -t kpr01genrs mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01genrs port 22: Connection timed out
+server: kpr01gesip
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01gesip:/home/ccarp001/
+spawn ssh -t kpr01gesip mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01gesip port 22: Connection timed out
+server: kpr01gvmgr
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01gvmgr:/home/ccarp001/
+spawn ssh -t kpr01gvmgr mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01gvmgr port 22: Connection timed out
+server: kpr01gvpas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01gvpas:/home/ccarp001/
+spawn ssh -t kpr01gvpas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01gvpas port 22: Connection timed out
+server: kpr01gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01gvpms:/home/ccarp001/
+spawn ssh -t kpr01gvpms mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01gvpms port 22: Connection timed out
+server: kpr01icons
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01icons:/home/ccarp001/
+spawn ssh -t kpr01icons mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01icons port 22: Connection timed out
+server: kpr01infom
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01infom:/home/ccarp001/
+spawn ssh -t kpr01infom mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01infom port 22: Connection timed out
+server: kpr01itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr01itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr01media
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01media:/home/ccarp001/
+spawn ssh -t kpr01media mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr01media port 22: Connection timed out
+server: kpr01mftse
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01mftse:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr01mftse mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr01mon01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01mon01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01mon01's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon01's password: spawn ssh -t kpr01mon01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01mon01's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon01's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon01's password: server: kpr01mon02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01mon02:/home/ccarp001/
+server: kpr01mon03
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01mon03:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01mon03's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon03's password: spawn ssh -t kpr01mon03 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01mon03's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon03's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon03's password: server: kpr01mon04
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01mon04:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01mon04's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon04's password: spawn ssh -t kpr01mon04 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01mon04's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon04's password: 
+Permission denied, please try again.
+ccarp001@kpr01mon04's password: server: kpr01oem01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01oem01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01oem01's password: 
+Permission denied, please try again.
+ccarp001@kpr01oem01's password: spawn ssh -t kpr01oem01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01oem01's password: 
+Permission denied, please try again.
+ccarp001@kpr01oem01's password: 
+Permission denied, please try again.
+ccarp001@kpr01oem01's password: server: kpr01oem02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01oem02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01oem02's password: 
+Permission denied, please try again.
+ccarp001@kpr01oem02's password: spawn ssh -t kpr01oem02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01oem02's password: 
+Permission denied, please try again.
+ccarp001@kpr01oem02's password: 
+Permission denied, please try again.
+ccarp001@kpr01oem02's password: server: kpr01outcs
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01outcs:/home/ccarp001/
+server: kpr01rdsky
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01rdsky:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr01rdsky mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr01twswc
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01twswc:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01twswc's password: 
+Permission denied, please try again.
+ccarp001@kpr01twswc's password: spawn ssh -t kpr01twswc mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01twswc's password: 
+Permission denied, please try again.
+ccarp001@kpr01twswc's password: 
+Permission denied, please try again.
+ccarp001@kpr01twswc's password: server: kpr02esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02esadm's password: 
+Permission denied, please try again.
+ccarp001@kpr02esadm's password: spawn ssh -t kpr02esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02esadm's password: 
+Permission denied, please try again.
+ccarp001@kpr02esadm's password: 
+Permission denied, please try again.
+ccarp001@kpr02esadm's password: server: kpr02esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02esb01:/home/ccarp001/
+The authenticity of host 'kpr02esb01 (10.76.27.32)' can't be established.
+RSA key fingerprint is 9e:ad:d7:0b:ed:d4:66:f2:6f:52:5e:ff:e7:ca:35:01.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'kpr02esb01,10.76.27.32' (RSA) to the list of known hosts.
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr02esb01's password: spawn ssh -t kpr02esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr02esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr02esb01's password: server: kpr02esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr02esb02's password: spawn ssh -t kpr02esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr02esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr02esb02's password: server: kpr02gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02gvpms:/home/ccarp001/
+server: kpr02itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr02itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr02media
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02media:/home/ccarp001/
+spawn ssh -t kpr02media mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr02media port 22: Connection timed out
+server: kpr02mftse
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02mftse:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr02mftse mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr02web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02web01's password: 
+Permission denied, please try again.
+ccarp001@kpr02web01's password: spawn ssh -t kpr02web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02web01's password: 
+Permission denied, please try again.
+ccarp001@kpr02web01's password: 
+Permission denied, please try again.
+ccarp001@kpr02web01's password: server: kpr02web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02web02's password: 
+Permission denied, please try again.
+ccarp001@kpr02web02's password: spawn ssh -t kpr02web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr02web02's password: 
+Permission denied, please try again.
+ccarp001@kpr02web02's password: 
+Permission denied, please try again.
+ccarp001@kpr02web02's password: server: kpr03esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03esadm:/home/ccarp001/
+server: kpr03esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr03esb01's password: spawn ssh -t kpr03esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr03esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr03esb01's password: server: kpr03esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr03esb02's password: spawn ssh -t kpr03esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr03esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr03esb02's password: server: kpr03gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03gvpms:/home/ccarp001/
+spawn ssh -t kpr03gvpms mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host kpr03gvpms port 22: Connection timed out
+server: kpr03itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr03itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr03web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03web01's password: 
+Permission denied, please try again.
+ccarp001@kpr03web01's password: spawn ssh -t kpr03web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03web01's password: 
+Permission denied, please try again.
+ccarp001@kpr03web01's password: 
+Permission denied, please try again.
+ccarp001@kpr03web01's password: server: kpr03web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03web02's password: 
+Permission denied, please try again.
+ccarp001@kpr03web02's password: spawn ssh -t kpr03web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr03web02's password: 
+Permission denied, please try again.
+ccarp001@kpr03web02's password: 
+Permission denied, please try again.
+ccarp001@kpr03web02's password: server: kpr04esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04esadm:/home/ccarp001/
+server: kpr04esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr04esb01's password: spawn ssh -t kpr04esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr04esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr04esb01's password: server: kpr04esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr04esb02's password: spawn ssh -t kpr04esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr04esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr04esb02's password: server: kpr04itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr04itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr04web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04web01's password: 
+Permission denied, please try again.
+ccarp001@kpr04web01's password: spawn ssh -t kpr04web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04web01's password: 
+Permission denied, please try again.
+ccarp001@kpr04web01's password: 
+Permission denied, please try again.
+ccarp001@kpr04web01's password: server: kpr04web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04web02's password: 
+Permission denied, please try again.
+ccarp001@kpr04web02's password: spawn ssh -t kpr04web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr04web02's password: 
+Permission denied, please try again.
+ccarp001@kpr04web02's password: 
+Permission denied, please try again.
+ccarp001@kpr04web02's password: server: kpr05esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05esadm's password: 
+Permission denied, please try again.
+ccarp001@kpr05esadm's password: spawn ssh -t kpr05esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05esadm's password: 
+Permission denied, please try again.
+ccarp001@kpr05esadm's password: 
+Permission denied, please try again.
+ccarp001@kpr05esadm's password: server: kpr05esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr05esb01's password: spawn ssh -t kpr05esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr05esb01's password: 
+Permission denied, please try again.
+ccarp001@kpr05esb01's password: server: kpr05esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr05esb02's password: spawn ssh -t kpr05esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr05esb02's password: 
+Permission denied, please try again.
+ccarp001@kpr05esb02's password: server: kpr05itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr05itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr05web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05web01's password: 
+Permission denied, please try again.
+ccarp001@kpr05web01's password: spawn ssh -t kpr05web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05web01's password: 
+Permission denied, please try again.
+ccarp001@kpr05web01's password: 
+Permission denied, please try again.
+ccarp001@kpr05web01's password: server: kpr05web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05web02's password: 
+Permission denied, please try again.
+ccarp001@kpr05web02's password: spawn ssh -t kpr05web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr05web02's password: 
+Permission denied, please try again.
+ccarp001@kpr05web02's password: 
+Permission denied, please try again.
+ccarp001@kpr05web02's password: server: kpr06itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr06itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr06itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr07itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr07itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr07itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr08itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr08itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr08itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr09itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr09itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr09itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr10itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr10itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr10itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01frmwk
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01frmwk:/home/ccarp001/
+spawn ssh -t mdr01frmwk mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mdr01frmwk port 22: Connection timed out
+server: mdr01gvpas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01gvpas:/home/ccarp001/
+spawn ssh -t mdr01gvpas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mdr01gvpas port 22: Connection timed out
+server: mdr01gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01gvpms:/home/ccarp001/
+spawn ssh -t mdr01gvpms mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mdr01gvpms port 22: Connection timed out
+server: mdr01icons
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01icons:/home/ccarp001/
+spawn ssh -t mdr01icons mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mdr01icons port 22: Connection timed out
+server: mdr01itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01mft
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01mft:/home/ccarp001/
+spawn ssh -t mdr01mft mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: mdr01oemad
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01oemad:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01oemad mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01oemtv
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01oemtv:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01oemtv mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01olr02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01olr02:/home/ccarp001/
+ssh: Could not resolve hostname mdr01olr02: hostname nor servname provided, or not known
+lost connection
+server: mdr02itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr02itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr02itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr03itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr03itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr03itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr04itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr04itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr04itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr05itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr05itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr05itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr06itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr06itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr06itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr07itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr07itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr07itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr08itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr08itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr08itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr09itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr09itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr09itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr10itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr10itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr10itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01adp01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01adp01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01adp01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01adp02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01adp02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01adp02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01btadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01btadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01btadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01btman
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01btman:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01btman mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01btper
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01btper:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01btper mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01bttra
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01bttra:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01bttra mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01frmwk
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01frmwk:/home/ccarp001/
+spawn ssh -t mpr01frmwk mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01frmwk port 22: Connection timed out
+server: mpr01genrs
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01genrs:/home/ccarp001/
+spawn ssh -t mpr01genrs mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01genrs port 22: Connection timed out
+server: mpr01gesip
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01gesip:/home/ccarp001/
+spawn ssh -t mpr01gesip mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01gesip port 22: Connection timed out
+server: mpr01gvmgr
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01gvmgr:/home/ccarp001/
+spawn ssh -t mpr01gvmgr mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01gvmgr port 22: Connection timed out
+server: mpr01gvpas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01gvpas:/home/ccarp001/
+spawn ssh -t mpr01gvpas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01gvpas port 22: Connection timed out
+server: mpr01gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01gvpms:/home/ccarp001/
+spawn ssh -t mpr01gvpms mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01gvpms port 22: Connection timed out
+server: mpr01icons
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01icons:/home/ccarp001/
+spawn ssh -t mpr01icons mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01icons port 22: Connection timed out
+server: mpr01infom
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01infom:/home/ccarp001/
+spawn ssh -t mpr01infom mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01infom port 22: Connection timed out
+server: mpr01itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01media
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01media:/home/ccarp001/
+spawn ssh -t mpr01media mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr01media port 22: Connection timed out
+server: mpr01mon01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01mon02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01mon03
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon03:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon03 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01mon04
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon04:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon04 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01oem01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01oem01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01oem01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr02gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02gvpms:/home/ccarp001/
+spawn ssh -t mpr02gvpms mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr02gvpms port 22: Connection timed out
+server: mpr02itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr02itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr02media
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02media:/home/ccarp001/
+spawn ssh -t mpr02media mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mpr02media port 22: Connection timed out
+server: mtr01frmwk
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01frmwk:/home/ccarp001/
+spawn ssh -t mtr01frmwk mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mtr01frmwk port 22: Connection timed out
+server: mtr01gvpas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01gvpas:/home/ccarp001/
+spawn ssh -t mtr01gvpas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mtr01gvpas port 22: Connection timed out
+server: mtr01gvpms
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01gvpms:/home/ccarp001/
+spawn ssh -t mtr01gvpms mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mtr01gvpms port 22: Connection timed out
+server: mtr01icons
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01icons:/home/ccarp001/
+spawn ssh -t mtr01icons mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mtr01icons port 22: Connection timed out
+server: mtr01twswc
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01twswc:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+scp: /home/ccarp001//id_dsa.pub: Permission denied

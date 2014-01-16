@@ -1,0 +1,48 @@
+#!/bin/sh
+
+#
+#partion config check
+#
+
+../tealeaf-env.sh
+default='rw suid dev exec auto nouser async'
+partitions=(/usr /var /var/log / /home swap /var/log/audit)
+config='/etc/fstab'
+declare -i found=0
+dump=''
+fsck=''
+
+for i in "${partitions[@]}"; do
+  found=0
+
+  while read dev mount type attr dump fsck; do
+    if [ "$mount" = "$i" ]; then
+      echo "$DATE: $i partition found." >> $TEALOG 
+      logger "$i partition found."
+      found=1
+      if [[ "$attr" =~ "/nosuid/" ]]; then
+        echo "$DATE: $mount is nosuid: $attr" >> $TEALOG 
+	logger "$mount is nosuid: $attr"
+      else
+	if [ "$mount" != "/usr" ]; then 
+          echo "$DATE: $mount is NOT nosuid: $attr" >> $TEALOG
+	  logger "$mount is NOT nosuid: $attr"
+	fi
+      fi
+      if [ "$fsck" != "1" ]; then
+  	echo "$DATE: $mount is NOT fsck enabled: $fsck" >> $TEALOG
+  	logger "$mount is NOT fsck enabled: $fsck"
+      fi
+    else
+      blah=1
+    fi
+  done < $config
+
+  if [ ! $found = 1 ]; then
+    echo "$DATE: $i partition not found" >> $TEALOG
+    logger "$i partition not found"
+  fi
+
+done
+
+

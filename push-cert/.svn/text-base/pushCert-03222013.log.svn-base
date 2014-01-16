@@ -1,0 +1,1384 @@
+server: bdr01rhel6
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01rhel6:/home/ccarp001/
+ssh: Could not resolve hostname bdr01rhel6: hostname nor servname provided, or not known
+lost connection
+server: ber01esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber01esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: ber01esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber01esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: ber01esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber01esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@ber01esb02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t ber01esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@ber01esb02's password: 
+Connection to ber01esb02 closed.
+server: ber01web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber01web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@ber01web01's password: 
+Permission denied, please try again.
+ccarp001@ber01web01's password: spawn ssh -t ber01web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@ber01web01's password: 
+Permission denied, please try again.
+ccarp001@ber01web01's password: server: ber01web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber01web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@ber01web02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t ber01web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@ber01web02's password: 
+mkdir: cannot create directory `.ssh': File exists
+ln: creating symbolic link `authorized_keys' to `id_dsa.pub': File exists
+ln: creating symbolic link `authorized_keys2' to `id_dsa.pub': File exists
+Connection to ber01web02 closed.
+server: ber02esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber02esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@ber02esadm's password: 
+Permission denied, please try again.
+ccarp001@ber02esadm's password: spawn ssh -t ber02esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@ber02esadm's password: 
+Permission denied, please try again.
+ccarp001@ber02esadm's password: server: ber02esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber02esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@ber02esb01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t ber02esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@ber02esb01's password: 
+Connection to ber02esb01 closed.
+server: ber02esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber02esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@ber02esb02's password: spawn ssh -t ber02esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@ber02esb02's password: 
+Permission denied, please try again.
+ccarp001@ber02esb02's password: server: ber02web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber02web01:/home/ccarp001/
+server: ber02web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub ber02web02:/home/ccarp001/
+server: bps01dir01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bps01dir01:/home/ccarp001/
+Password: spawn ssh -t bps01dir01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: bps01svn01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bps01svn01:/home/ccarp001/
+server: bqr01esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr01esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01esadm's password: spawn ssh -t bqr01esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01esadm's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr01esadm closed.
+server: bqr01esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr01esb01:/home/ccarp001/
+The authenticity of host 'bqr01esb01 (10.115.15.222)' can't be established.
+RSA key fingerprint is 9e:ad:d7:0b:ed:d4:66:f2:6f:52:5e:ff:e7:ca:35:01.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'bqr01esb01,10.115.15.222' (RSA) to the list of known hosts.
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01esb01's password: spawn ssh -t bqr01esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01esb01's password: 
+Permission denied, please try again.
+ccarp001@bqr01esb01's password: server: bqr01esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr01esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01esb02's password: spawn ssh -t bqr01esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01esb02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr01esb02 closed.
+server: bqr01web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr01web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01web01's password: spawn ssh -t bqr01web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01web01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr01web01 closed.
+server: bqr01web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr01web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01web02's password: spawn ssh -t bqr01web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr01web02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr01web02 closed.
+server: bqr03esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr03esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03esadm's password: spawn ssh -t bqr03esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03esadm's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr03esadm closed.
+server: bqr03esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr03esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03esb01's password: spawn ssh -t bqr03esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03esb01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr03esb01 closed.
+server: bqr03esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr03esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03esb02's password: spawn ssh -t bqr03esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03esb02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to bqr03esb02 closed.
+server: bqr03web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr03web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03web01's password: spawn ssh -t bqr03web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03web01's password: server: bqr03web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bqr03web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03web02's password: spawn ssh -t bqr03web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@bqr03web02's password: 
+Permission denied, please try again.
+ccarp001@bqr03web02's password: server: chi1amac
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1amac:/home/ccarp001/
+server: chi1bir1
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1bir1:/home/ccarp001/
+The authenticity of host 'chi1bir1 (10.115.19.42)' can't be established.
+RSA key fingerprint is a9:b1:72:b7:46:04:b9:f5:12:67:30:3c:ee:31:e4:f4.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'chi1bir1,10.115.19.42' (RSA) to the list of known hosts.
+Password: spawn ssh -t chi1bir1 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi1damc
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1damc:/home/ccarp001/
+server: chi1ddir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1ddir:/home/ccarp001/
+The authenticity of host 'chi1ddir (10.115.11.134)' can't be established.
+RSA key fingerprint is 06:5a:f9:72:a8:b9:8c:27:45:d4:38:9c:8c:ec:37:4a.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'chi1ddir,10.115.11.134' (RSA) to the list of known hosts.
+Password: spawn ssh -t chi1ddir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi1dftp
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1dftp:/home/ccarp001/
+server: chi1dslm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1dslm:/home/ccarp001/
+Password: spawn ssh -t chi1dslm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi1idir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1idir:/home/ccarp001/
+server: chi1iesb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1iesb.uscc.com:/home/ccarp001/
+ccarp001@chi1iesb.uscc.com's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi1iesb.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1iesb.uscc.com's password: 
+Connection to chi1iesb.uscc.com closed.
+server: chi1iweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1iweb:/home/ccarp001/
+ccarp001@chi1iweb's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi1iweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1iweb's password: 
+Connection to chi1iweb closed.
+server: chi1iwls
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1iwls:/home/ccarp001/
+ccarp001@chi1iwls's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi1iwls mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1iwls's password: 
+Connection to chi1iwls closed.
+server: chi1lnx1
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1lnx1:/home/ccarp001/
+ccarp001@chi1lnx1's password: 
+Permission denied, please try again.
+ccarp001@chi1lnx1's password: spawn ssh -t chi1lnx1 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1lnx1's password: 
+Permission denied, please try again.
+ccarp001@chi1lnx1's password: server: chi1pdir-old
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1pdir-old:/home/ccarp001/
+ssh: Could not resolve hostname chi1pdir-old: hostname nor servname provided, or not known
+lost connection
+server: chi1psat.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1psat.uscc.com:/home/ccarp001/
+ccarp001@chi1psat.uscc.com's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi1psat.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1psat.uscc.com's password: 
+Connection to chi1psat.uscc.com closed.
+server: chi1pwcs
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1pwcs:/home/ccarp001/
+ccarp001@chi1pwcs's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi1pwcs mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1pwcs's password: 
+Connection to chi1pwcs closed.
+server: chi1pzen
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1pzen:/home/ccarp001/
+Password: spawn ssh -t chi1pzen mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi1sas1
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1sas1:/home/ccarp001/
+server: chi1wbld
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1wbld:/home/ccarp001/
+ccarp001@chi1wbld's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi1wbld mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1wbld's password: 
+Connection to chi1wbld closed.
+server: chi2amac
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2amac:/home/ccarp001/
+Password: spawn ssh -t chi2amac mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi2ddir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2ddir:/home/ccarp001/
+server: chi2idas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2idas:/home/ccarp001/
+Password: spawn ssh -t chi2idas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi2iweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2iweb:/home/ccarp001/
+server: chi2iwls
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2iwls:/home/ccarp001/
+ccarp001@chi2iwls's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi2iwls mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi2iwls's password: 
+Connection to chi2iwls closed.
+server: chi2pdas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2pdas:/home/ccarp001/
+Password: spawn ssh -t chi2pdas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi2pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2pdir:/home/ccarp001/
+server: chi2wiki
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2wiki:/home/ccarp001/
+Password: spawn ssh -t chi2wiki mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi3dtiv
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi3dtiv:/home/ccarp001/
+server: chi3idir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi3idir:/home/ccarp001/
+Password: spawn ssh -t chi3idir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi3iesb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi3iesb.uscc.com:/home/ccarp001/
+server: chi3iweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi3iweb:/home/ccarp001/
+Password: spawn ssh -t chi3iweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: chi4idir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi4idir:/home/ccarp001/
+server: chi4iesb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi4iesb.uscc.com:/home/ccarp001/
+ccarp001@chi4iesb.uscc.com's password: spawn ssh -t chi4iesb.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi4iesb.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@chi4iesb.uscc.com's password: server: chi5idir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi5idir:/home/ccarp001/
+server: chi6iweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi6iweb:/home/ccarp001/
+The authenticity of host 'chi6iweb (10.184.13.10)' can't be established.
+RSA key fingerprint is 5b:04:2d:a7:04:9e:bc:e1:95:2e:14:3f:81:87:7f:ff.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'chi6iweb,10.184.13.10' (RSA) to the list of known hosts.
+ccarp001@chi6iweb's password: 
+Permission denied, please try again.
+ccarp001@chi6iweb's password: spawn ssh -t chi6iweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi6iweb's password: 
+Permission denied, please try again.
+ccarp001@chi6iweb's password: server: chi7iweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi7iweb:/home/ccarp001/
+ccarp001@chi7iweb's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t chi7iweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi7iweb's password: 
+Connection to chi7iweb closed.
+server: chi8iweb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi8iweb.uscc.com:/home/ccarp001/
+ccarp001@chi8iweb.uscc.com's password: spawn ssh -t chi8iweb.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi8iweb.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@chi8iweb.uscc.com's password: server: chi9iweb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi9iweb.uscc.com:/home/ccarp001/
+server: knx1pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1pdir:/home/ccarp001/
+Password: spawn ssh -t knx1pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: knx1pesb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1pesb.uscc.com:/home/ccarp001/
+server: knx1pweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1pweb:/home/ccarp001/
+ccarp001@knx1pweb's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t knx1pweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@knx1pweb's password: 
+Connection to knx1pweb closed.
+server: knx1pwlm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1pwlm:/home/ccarp001/
+The authenticity of host 'knx1pwlm (10.76.27.13)' can't be established.
+RSA key fingerprint is 1a:c5:75:ea:0b:ae:3d:08:e3:c1:f1:06:d3:dd:3c:82.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'knx1pwlm,10.76.27.13' (RSA) to the list of known hosts.
+Password: spawn ssh -t knx1pwlm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: knx1pwls.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1pwls.uscc.com:/home/ccarp001/
+server: knx1pzen
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1pzen:/home/ccarp001/
+Password: spawn ssh -t knx1pzen mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: knx1sidp
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx1sidp:/home/ccarp001/
+server: knx2pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx2pdir:/home/ccarp001/
+ccarp001@knx2pdir's password: 
+Permission denied, please try again.
+ccarp001@knx2pdir's password: spawn ssh -t knx2pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@knx2pdir's password: 
+Permission denied, please try again.
+ccarp001@knx2pdir's password: server: knx2pweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx2pweb:/home/ccarp001/
+The authenticity of host 'knx2pweb (10.76.26.2)' can't be established.
+RSA key fingerprint is af:7c:e0:35:97:e8:5c:06:4a:5b:58:9f:17:0b:88:4e.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'knx2pweb,10.76.26.2' (RSA) to the list of known hosts.
+ccarp001@knx2pweb's password: 
+Permission denied, please try again.
+ccarp001@knx2pweb's password: spawn ssh -t knx2pweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@knx2pweb's password: 
+Permission denied, please try again.
+ccarp001@knx2pweb's password: server: knx2pwls
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx2pwls:/home/ccarp001/
+ccarp001@knx2pwls's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t knx2pwls mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@knx2pwls's password: 
+Connection to knx2pwls closed.
+server: knx3pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx3pdir:/home/ccarp001/
+Password: spawn ssh -t knx3pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: knx3pweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx3pweb:/home/ccarp001/
+server: knx4pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx4pdir:/home/ccarp001/
+The authenticity of host 'knx4pdir (10.76.25.6)' can't be established.
+RSA key fingerprint is 5d:7d:08:34:c9:a5:fa:0a:66:64:2f:66:2d:73:68:10.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'knx4pdir,10.76.25.6' (RSA) to the list of known hosts.
+Password: spawn ssh -t knx4pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: knx5pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub knx5pdir:/home/ccarp001/
+server: kpo01rac01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpo01rac01:/home/ccarp001/
+ccarp001@kpo01rac01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpo01rac01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@kpo01rac01's password: 
+Connection to kpo01rac01 closed.
+server: kpo01rac02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpo01rac02:/home/ccarp001/
+ccarp001@kpo01rac02's password: 
+Permission denied, please try again.
+ccarp001@kpo01rac02's password: spawn ssh -t kpo01rac02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@kpo01rac02's password: 
+Permission denied, please try again.
+ccarp001@kpo01rac02's password: server: kpo01rac03
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpo01rac03:/home/ccarp001/
+ccarp001@kpo01rac03's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpo01rac03 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@kpo01rac03's password: 
+Connection to kpo01rac03 closed.
+server: kpr01avmvm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01avmvm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01batch
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01batch:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01bimap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01bimap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01cmt01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01cmt01:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr01cmt01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr01cmt01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr01cmt01's password: 
+Connection to kpr01cmt01 closed.
+server: kpr01cmt02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01cmt02:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr01cmt02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr01cmt02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr01cmt02's password: 
+Connection to kpr01cmt02 closed.
+server: kpr01csmap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01csmap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01cvapp
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01cvapp:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01cvtst
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01cvtst:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01dlpdb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01dlpdb:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01dlpdb's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr01dlpdb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@kpr01dlpdb's password: 
+Connection to kpr01dlpdb closed.
+server: kpr01event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01gpfsm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01gpfsm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01omsap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01omsap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr01sasgr
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01sasgr:/home/ccarp001/
+ccarp001@kpr01sasgr's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr01sasgr mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@kpr01sasgr's password: 
+Connection to kpr01sasgr closed.
+server: kpr01tiger
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01tiger:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02avmvm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02avmvm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02bimap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02bimap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02csmap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02csmap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02omsap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02omsap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr02sasmt
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr02sasmt:/home/ccarp001/
+ccarp001@kpr02sasmt's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr02sasmt mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@kpr02sasmt's password: 
+Connection to kpr02sasmt closed.
+server: kpr03batch
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03batch:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03csmap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03csmap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr03omsap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr03omsap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr04bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr04csmap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04csmap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr04event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr04igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr04igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr04jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr04jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr05bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr05event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr05igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr05igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr05jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr05jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr06bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr06bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr06event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr06event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr06igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr06igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr07bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr07bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr07igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr07igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr08bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr08bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr09bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr09bmrim:/home/ccarp001/
+ccarp001@kpr09bmrim's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr09bmrim mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@kpr09bmrim's password: 
+Connection to kpr09bmrim closed.
+server: kpr10bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr10bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr11bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr11bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr11web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr11web01:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr11web01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr11web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr11web01's password: 
+Connection to kpr11web01 closed.
+server: kpr11web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr11web02:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr11web02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr11web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr11web02's password: 
+Connection to kpr11web02 closed.
+server: kpr12bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr12bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr12web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr12web01:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr12web01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr12web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr12web01's password: 
+Connection to kpr12web01 closed.
+server: kpr12web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr12web02:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr12web02's password: 
+Permission denied, please try again.
+ccarp001@kpr12web02's password: spawn ssh -t kpr12web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr12web02's password: 
+Permission denied, please try again.
+ccarp001@kpr12web02's password: server: kpr13bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr13bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kpr13web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr13web01:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr13web01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr13web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr13web01's password: 
+Connection to kpr13web01 closed.
+server: kpr13web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr13web02:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@kpr13web02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t kpr13web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@kpr13web02's password: 
+Connection to kpr13web02 closed.
+server: kpr14bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr14bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: kps01dir01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kps01dir01:/home/ccarp001/
+Password: spawn ssh -t kps01dir01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: kps01dir02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kps01dir02:/home/ccarp001/
+server: kps02dir01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kps02dir01:/home/ccarp001/
+Password: spawn ssh -t kps02dir01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: kps02dir02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kps02dir02:/home/ccarp001/
+server: mad1pamc
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1pamc:/home/ccarp001/
+Password: spawn ssh -t mad1pamc mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: mad1pdas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1pdas:/home/ccarp001/
+server: mad1pesb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1pesb.uscc.com:/home/ccarp001/
+ccarp001@mad1pesb.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@mad1pesb.uscc.com's password: spawn ssh -t mad1pesb.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad1pesb.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@mad1pesb.uscc.com's password: server: mad1pftp
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1pftp:/home/ccarp001/
+ccarp001@mad1pftp's password: 
+Permission denied, please try again.
+ccarp001@mad1pftp's password: spawn ssh -t mad1pftp mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad1pftp's password: 
+Permission denied, please try again.
+ccarp001@mad1pftp's password: server: mad1plog
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1plog:/home/ccarp001/
+The authenticity of host 'mad1plog (10.106.27.10)' can't be established.
+RSA key fingerprint is fc:89:4f:51:6f:07:2c:65:cd:31:13:fb:a5:7a:f0:23.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'mad1plog,10.106.27.10' (RSA) to the list of known hosts.
+ccarp001@mad1plog's password: 
+Permission denied, please try again.
+ccarp001@mad1plog's password: spawn ssh -t mad1plog mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad1plog's password: 
+Permission denied, please try again.
+ccarp001@mad1plog's password: server: mad1pwlm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1pwlm:/home/ccarp001/
+server: mad1pwls
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad1pwls:/home/ccarp001/
+server: mad2pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad2pdir:/home/ccarp001/
+ccarp001@mad2pdir's password: 
+Permission denied, please try again.
+ccarp001@mad2pdir's password: spawn ssh -t mad2pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad2pdir's password: 
+Permission denied, please try again.
+ccarp001@mad2pdir's password: server: mad2pesb.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad2pesb.uscc.com:/home/ccarp001/
+The authenticity of host 'mad2pesb.uscc.com (10.106.27.15)' can't be established.
+RSA key fingerprint is 0c:bd:90:50:52:fa:98:42:1c:87:6f:16:63:2e:a5:bb.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'mad2pesb.uscc.com,10.106.27.15' (RSA) to the list of known hosts.
+ccarp001@mad2pesb.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@mad2pesb.uscc.com's password: spawn ssh -t mad2pesb.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad2pesb.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@mad2pesb.uscc.com's password: server: mad2pweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad2pweb:/home/ccarp001/
+ccarp001@mad2pweb's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mad2pweb mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad2pweb's password: 
+Connection to mad2pweb closed.
+server: mad2pwls
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad2pwls:/home/ccarp001/
+ccarp001@mad2pwls's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mad2pwls mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mad2pwls's password: 
+Connection to mad2pwls closed.
+server: mad3pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad3pdir:/home/ccarp001/
+Password: spawn ssh -t mad3pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: mad3pweb
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad3pweb:/home/ccarp001/
+server: mad4pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad4pdir:/home/ccarp001/
+Password: spawn ssh -t mad4pdir mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: mad5pdir
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mad5pdir:/home/ccarp001/
+server: mar01gpfsm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mar01gpfsm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mar02gpfsm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mar02gpfsm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mdo01rac01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdo01rac01:/home/ccarp001/
+ccarp001@mdo01rac01's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mdo01rac01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mdo01rac01's password: 
+Connection to mdo01rac01 closed.
+server: mdo01rac02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdo01rac02:/home/ccarp001/
+ccarp001@mdo01rac02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mdo01rac02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mdo01rac02's password: 
+Connection to mdo01rac02 closed.
+server: mdo01rac03
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdo01rac03:/home/ccarp001/
+ccarp001@mdo01rac03's password: 
+Permission denied, please try again.
+ccarp001@mdo01rac03's password: spawn ssh -t mdo01rac03 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mdo01rac03's password: 
+Permission denied, please try again.
+ccarp001@mdo01rac03's password: 
+Connection to mdo01rac03 closed.
+server: mdr01ibmbf
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01ibmbf:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mdr01ibmbf's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mdr01ibmbf mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mdr01ibmbf's password: 
+Connection to mdr01ibmbf closed.
+server: mdr01olr01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01olr01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mdr01olr01's password: spawn ssh -t mdr01olr01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mdr01olr01's password: 
+Permission denied, please try again.
+ccarp001@mdr01olr01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mdr01olr01 closed.
+server: mdr01rhel5
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01rhel5:/home/ccarp001/
+ssh: Could not resolve hostname mdr01rhel5: hostname nor servname provided, or not known
+lost connection
+server: mdr01tiger
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01tiger:/home/ccarp001/
+ccarp001@mdr01tiger's password: 
+Permission denied, please try again.
+ccarp001@mdr01tiger's password: spawn ssh -t mdr01tiger mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mdr01tiger's password: 
+Permission denied, please try again.
+ccarp001@mdr01tiger's password: 
+Connection to mdr01tiger closed.
+server: mer01aprma
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mer01aprma:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mer03sitap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mer03sitap:/home/ccarp001/
+ccarp001@mer03sitap's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mer03sitap mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mer03sitap's password: 
+Connection to mer03sitap closed.
+server: mpr01oem02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01oem02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01oem02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mpr01oem02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01oem02's password: 
+Connection to mpr01oem02 closed.
+server: mpr01olr01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01olr01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01olr01's password: spawn ssh -t mpr01olr01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01olr01's password: 
+Permission denied, please try again.
+ccarp001@mpr01olr01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr01olr01 closed.
+server: mpr01olr02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01olr02:/home/ccarp001/
+The authenticity of host 'mpr01olr02 (10.106.26.61)' can't be established.
+RSA key fingerprint is 9a:cd:ca:7e:5d:fe:0a:e6:f3:d9:98:8d:af:d9:77:19.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'mpr01olr02,10.106.26.61' (RSA) to the list of known hosts.
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01olr02's password: spawn ssh -t mpr01olr02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01olr02's password: 
+Permission denied, please try again.
+ccarp001@mpr01olr02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr01olr02 closed.
+server: mpr02esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02esadm's password: spawn ssh -t mpr02esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02esadm's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr02esadm closed.
+server: mpr02esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr02esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02esb01's password: 
+Permission denied, please try again.
+ccarp001@mpr02esb01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr02esb01 closed.
+server: mpr02esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02esb02's password: spawn ssh -t mpr02esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02esb02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr02esb02 closed.
+server: mpr02web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02web01's password: spawn ssh -t mpr02web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02web01's password: 
+Permission denied, please try again.
+ccarp001@mpr02web01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr02web01 closed.
+server: mpr02web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr02web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02web02's password: spawn ssh -t mpr02web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr02web02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr02web02 closed.
+server: mpr03esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr03esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03esadm's password: spawn ssh -t mpr03esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03esadm's password: 
+Permission denied, please try again.
+ccarp001@mpr03esadm's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr03esadm closed.
+server: mpr03esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr03esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03esb01's password: spawn ssh -t mpr03esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03esb01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr03esb01 closed.
+server: mpr03esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr03esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03esb02's password: spawn ssh -t mpr03esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03esb02's password: 
+Permission denied, please try again.
+ccarp001@mpr03esb02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr03esb02 closed.
+server: mpr03web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr03web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03web02's password: spawn ssh -t mpr03web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr03web02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr03web02 closed.
+server: mpr04esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr04esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04esadm's password: spawn ssh -t mpr04esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04esadm's password: 
+Permission denied, please try again.
+ccarp001@mpr04esadm's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr04esadm closed.
+server: mpr04esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr04esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04esb01's password: spawn ssh -t mpr04esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04esb01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr04esb01 closed.
+server: mpr04esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr04esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04esb02's password: spawn ssh -t mpr04esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04esb02's password: 
+Permission denied, please try again.
+ccarp001@mpr04esb02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr04esb02 closed.
+server: mpr04web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr04web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04web01's password: spawn ssh -t mpr04web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04web01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr04web01 closed.
+server: mpr04web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr04web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04web02's password: spawn ssh -t mpr04web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr04web02's password: 
+Permission denied, please try again.
+ccarp001@mpr04web02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr04web02 closed.
+server: mpr05esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr05esadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05esadm's password: spawn ssh -t mpr05esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05esadm's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr05esadm closed.
+server: mpr05esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr05esb01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05esb01's password: spawn ssh -t mpr05esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05esb01's password: 
+server: mpr05esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr05esb02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05esb02's password: spawn ssh -t mpr05esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05esb02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr05esb02 closed.
+server: mpr05web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr05web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05web01's password: spawn ssh -t mpr05web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05web01's password: 
+Permission denied, please try again.
+ccarp001@mpr05web01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr05web01 closed.
+server: mpr05web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr05web02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05web02's password: spawn ssh -t mpr05web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr05web02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mpr05web02 closed.
+server: mps01dir01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mps01dir01:/home/ccarp001/
+Password: spawn ssh -t mps01dir01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: mps01dir02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mps01dir02:/home/ccarp001/
+server: mps02dir01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mps02dir01:/home/ccarp001/
+Password: spawn ssh -t mps02dir01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Password: server: mps02dir02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mps02dir02:/home/ccarp001/
+server: mrr01apxap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01apxap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01avmvm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01avmvm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01bimap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01bimap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01csmap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01csmap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr01omsap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr01omsap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02apxap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02apxap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02avmvm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02avmvm:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02bimap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02bimap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02csmap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02csmap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02igrap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02igrap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02igwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02igwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02jnwap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02jnwap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr02omsap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr02omsap:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr03bmrim
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr03bmrim:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr03event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr03event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr04event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr04event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr05event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr05event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mrr06event
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mrr06event:/home/ccarp001/
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+server: mtr01cmt01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01cmt01:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@mtr01cmt01's password: 
+spawn ssh -t mtr01cmt01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@mtr01cmt01's password: 
+Connection to mtr01cmt01 closed.
+server: mtr01cmt02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01cmt02:/home/ccarp001/
+Unauthorized use of this system is prohibited
+ccarp001@mtr01cmt02's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mtr01cmt02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited
+ccarp001@mtr01cmt02's password: 
+Connection to mtr01cmt02 closed.
+server: mtr01mftse
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01mftse:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mtr01mftse's password: spawn ssh -t mtr01mftse mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mtr01mftse's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mtr01mftse closed.
+server: mtr01olr01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01olr01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mtr01olr01's password: spawn ssh -t mtr01olr01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mtr01olr01's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mtr01olr01 closed.
+server: mtr01olr02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01olr02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mtr01olr02's password: spawn ssh -t mtr01olr02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mtr01olr02's password: 
+Permission denied, please try again.
+ccarp001@mtr01olr02's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to mtr01olr02 closed.
+server: mtr01sasgr
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01sasgr:/home/ccarp001/
+ccarp001@mtr01sasgr's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mtr01sasgr mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mtr01sasgr's password: 
+Connection to mtr01sasgr closed.
+server: mtr02sasgr
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr02sasgr:/home/ccarp001/
+ccarp001@mtr02sasgr's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mtr02sasgr mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mtr02sasgr's password: 
+Connection to mtr02sasgr closed.
+server: mtr04s2eap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr04s2eap:/home/ccarp001/
+ccarp001@mtr04s2eap's password: 
+Permission denied, please try again.
+ccarp001@mtr04s2eap's password: spawn ssh -t mtr04s2eap mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mtr04s2eap's password: 
+Permission denied, please try again.
+ccarp001@mtr04s2eap's password: 
+Connection to mtr04s2eap closed.
+server: mtr05s2eap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr05s2eap:/home/ccarp001/
+The authenticity of host 'mtr05s2eap (10.180.177.123)' can't be established.
+RSA key fingerprint is d0:f9:9c:7c:cf:ce:6f:35:8c:7c:3d:b4:98:57:85:e6.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'mtr05s2eap,10.180.177.123' (RSA) to the list of known hosts.
+ccarp001@mtr05s2eap's password: 
+Permission denied, please try again.
+ccarp001@mtr05s2eap's password: spawn ssh -t mtr05s2eap mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@mtr05s2eap's password: 
+Permission denied, please try again.
+ccarp001@mtr05s2eap's password: 
+Connection to mtr05s2eap closed.
+server: chi1iovd.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi1iovd.uscc.com:/home/ccarp001/
+ccarp001@chi1iovd.uscc.com's password: spawn ssh -t chi1iovd.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi1iovd.uscc.com's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to chi1iovd.uscc.com closed.
+server: chi2iovd.uscc.com
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi2iovd.uscc.com:/home/ccarp001/
+ccarp001@chi2iovd.uscc.com's password: spawn ssh -t chi2iovd.uscc.com mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi2iovd.uscc.com's password: 
+Permission denied, please try again.
+ccarp001@chi2iovd.uscc.com's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to chi2iovd.uscc.com closed.
+server: chi3iwls
+spawn scp /home/ccarp001/.ssh/id_dsa.pub chi3iwls:/home/ccarp001/
+ccarp001@chi3iwls's password: spawn ssh -t chi3iwls mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ccarp001@chi3iwls's password: 
+mv: cannot stat `id_dsa.pub': No such file or directory
+Connection to chi3iwls closed.
+server: kpr01mftse
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01mftse:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr01mftse mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr01raida
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01raida:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr01raida mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: kpr01wlsas
+spawn scp /home/ccarp001/.ssh/id_dsa.pub kpr01wlsas:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t kpr01wlsas mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01oemad
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01oemad:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01oemad mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01oemtv
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01oemtv:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01oemtv mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr01webap
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr01webap:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr01webap mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr03itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr03itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr03itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr04itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr04itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr04itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr05itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr05itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr05itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr06itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr06itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr06itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr07itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr07itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr07itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mdr09itmon
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mdr09itmon:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mdr09itmon mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01btadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01btadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01btadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01btman
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01btman:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01btman mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01btper
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01btper:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01btper mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01ibmbf
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01ibmbf:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01ibmbf's password: 
+id_dsa.pub                                                                      0%    0     0.0KB/s   --:-- ETAid_dsa.pub                                                                    100%  614     0.6KB/s   00:00    
+spawn ssh -t mpr01ibmbf mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+ccarp001@mpr01ibmbf's password: 
+Connection to mpr01ibmbf closed.
+server: mpr01mon02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mpr01mon03
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mpr01mon03:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mpr01mon03 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mqr01web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mqr01web01:/home/ccarp001/
+spawn ssh -t mqr01web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mqr01web01 port 22: Connection timed out
+server: mqr01web02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mqr01web02:/home/ccarp001/
+spawn ssh -t mqr01web02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+ssh: connect to host mqr01web02 port 22: Connection timed out
+server: mtr01esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01esadm:/home/ccarp001/
+spawn ssh -t mtr01esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: mtr01esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01esb01:/home/ccarp001/
+spawn ssh -t mtr01esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: mtr01esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01esb02:/home/ccarp001/
+spawn ssh -t mtr01esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: mtr01raida
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr01raida:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t mtr01raida mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: mtr02esadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr02esadm:/home/ccarp001/
+spawn ssh -t mtr02esadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: mtr02esb01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr02esb01:/home/ccarp001/
+spawn ssh -t mtr02esb01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: mtr02esb02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub mtr02esb02:/home/ccarp001/
+spawn ssh -t mtr02esb02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+server: bdr01btadm
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01btadm:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01btadm mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01btman
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01btman:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01btman mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01bttra
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01bttra:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01bttra mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01mon01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01mon01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01mon01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01mon02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01mon02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01mon02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01mon04
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01mon04:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01mon04 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01oem01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01oem01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01oem01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01oem02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01oem02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01oem02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01oraer
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01oraer:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01oraer mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr01web01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr01web01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr01web01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr02oem01
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr02oem01:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr02oem01 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.
+server: bdr02oem02
+spawn scp /home/ccarp001/.ssh/id_dsa.pub bdr02oem02:/home/ccarp001/
+Unauthorized use of this system is prohibited.
+spawn ssh -t bdr02oem02 mkdir .ssh; chmod 750 .ssh;mv id_dsa.pub .ssh/;cd .ssh;ln -s id_dsa.pub authorized_keys;ln -s id_dsa.pub authorized_keys2;
+Unauthorized use of this system is prohibited.

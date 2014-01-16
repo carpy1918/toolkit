@@ -1,0 +1,152 @@
+computer,description,deviceid,name,service
+curtislaptop,ACPI Multiprocessor PC,ROOT\ACPI_HAL\0000,ACPI Multiprocessor PC,\Driver\ACPI_HAL
+curtislaptop,Microsoft ACPI-Compliant System,ACPI_HAL\PNP0C08\0,Microsoft ACPI-Compliant System,ACPI
+curtislaptop,Intel Processor,ACPI\GENUINEINTEL_-_X86_FAMILY_6_MODEL_14\_0,Genuine Intel(R) CPU           T2300  @ 1.66GHz,intelppm
+curtislaptop,Intel Processor,ACPI\GENUINEINTEL_-_X86_FAMILY_6_MODEL_14\_1,Genuine Intel(R) CPU           T2300  @ 1.66GHz,intelppm
+curtislaptop,ACPI Thermal Zone,ACPI\THERMALZONE\THM_,ACPI Thermal Zone,
+curtislaptop,Microsoft AC Adapter,ACPI\ACPI0003\2&DABA3FF&0,Microsoft AC Adapter,CmBatt
+curtislaptop,Microsoft ACPI-Compliant Control Method Battery,ACPI\PNP0C0A\1,Microsoft ACPI-Compliant Control Method Battery,CmBatt
+curtislaptop,ACPI Lid,ACPI\PNP0C0D\2&DABA3FF&0,ACPI Lid,
+curtislaptop,ACPI Power Button,ACPI\PNP0C0C\2&DABA3FF&0,ACPI Power Button,
+curtislaptop,ACPI Sleep Button,ACPI\PNP0C0E\2&DABA3FF&0,ACPI Sleep Button,
+curtislaptop,System board,ACPI\PNP0C01\1,System board,
+curtislaptop,PCI bus,ACPI\PNP0A03\2&DABA3FF&0,PCI bus,pci
+curtislaptop,Mobile Intel(R) 955XM/945GM/PM/GMS/940GML Express Processor to DRAM Controller – 27A0,PCI\VEN_8086&DEV_27A0&SUBSYS_00000000&REV_03\3&61AAA01&0&00,Mobile Intel(R) 955XM/945GM/PM/GMS/940GML Express Processor to DRAM Controller – 27A0,
+curtislaptop,Mobile Intel(R) 945GM Express Chipset Family,PCI\VEN_8086&DEV_27A2&SUBSYS_01BD1028&REV_03\3&61AAA01&0&10,Mobile Intel(R) 945GM Express Chipset Family,ialm
+curtislaptop,Plug and Play Monitor,DISPLAY\CPT13A6\4&15E83EC0&0&80861500&00&02,Plug and Play Monitor,
+curtislaptop,Plug and Play Monitor,DISPLAY\CPT13A6\4&15E83EC0&0&00000400&00&02,Plug and Play Monitor,
+curtislaptop,Default Monitor,DISPLAY\DEFAULT_MONITOR\4&15E83EC0&0&00000100&00&02,Default Monitor,
+curtislaptop,Mobile Intel(R) 945GM Express Chipset Family,PCI\VEN_8086&DEV_27A6&SUBSYS_01BD1028&REV_03\3&61AAA01&0&11,Mobile Intel(R) 945GM Express Chipset Family,ialm
+curtislaptop,Plug and Play Monitor,DISPLAY\CPT13A6\4&BAA9467&0&80871400&00&22,Plug and Play Monitor,
+curtislaptop,Default Monitor,DISPLAY\DEFAULT_MONITOR\4&BAA9467&0&80872100&00&22,Default Monitor,
+curtislaptop,Microsoft UAA Bus Driver for High Definition Audio,PCI\VEN_8086&DEV_27D8&SUBSYS_01BD1028&REV_01\3&61AAA01&0&D8,Microsoft UAA Bus Driver for High Definition Audio,HDAudBus
+curtislaptop,SigmaTel High Definition Audio CODEC,HDAUDIO\FUNC_01&VEN_8384&DEV_7690&SUBSYS_102801BD&REV_1022\4&2973568E&0&0001,SigmaTel High Definition Audio CODEC,STHDA
+curtislaptop,Conexant HDA D110 MDC V.92 Modem,HDAUDIO\FUNC_02&VEN_14F1&DEV_2BFA&SUBSYS_14F100C3&REV_0900\4&2973568E&0&0102,Conexant HDA D110 MDC V.92 Modem,Modem
+curtislaptop,Intel(R) 82801G (ICH7 Family) PCI Express Root Port - 27D0,PCI\VEN_8086&DEV_27D0&SUBSYS_00000000&REV_01\3&61AAA01&0&E0,Intel(R) 82801G (ICH7 Family) PCI Express Root Port - 27D0,pci
+curtislaptop,Intel(R) PRO/Wireless 3945ABG Network Connection,PCI\VEN_8086&DEV_4222&SUBSYS_10208086&REV_02\4&6C79FC5&0&00E0,Intel(R) PRO/Wireless 3945ABG Network Connection,w39n51
+curtislaptop,Intel(R) 82801G (ICH7 Family) PCI Express Root Port - 27D6,PCI\VEN_8086&DEV_27D6&SUBSYS_00000000&REV_01\3&61AAA01&0&E3,Intel(R) 82801G (ICH7 Family) PCI Express Root Port - 27D6,pci
+curtislaptop,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C8,PCI\VEN_8086&DEV_27C8&SUBSYS_01BD1028&REV_01\3&61AAA01&0&E8,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C8,usbuhci
+curtislaptop,USB Root Hub,USB\ROOT_HUB\4&10D90B96&0,USB Root Hub,usbhub
+curtislaptop,Microsoft USB Wheel Mouse Optical,USB\VID_045E&PID_0040\5&18BD802A&0&1,Microsoft USB Wheel Mouse Optical,HidUsb
+curtislaptop,Microsoft USB Wheel Mouse Optical,HID\VID_045E&PID_0040\6&A84E057&0&0000,Microsoft USB Wheel Mouse Optical,mouhid
+curtislaptop,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C9,PCI\VEN_8086&DEV_27C9&SUBSYS_01BD1028&REV_01\3&61AAA01&0&E9,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27C9,usbuhci
+curtislaptop,USB Root Hub,USB\ROOT_HUB\4&3932BA15&0,USB Root Hub,usbhub
+curtislaptop,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CA,PCI\VEN_8086&DEV_27CA&SUBSYS_01BD1028&REV_01\3&61AAA01&0&EA,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CA,usbuhci
+curtislaptop,USB Root Hub,USB\ROOT_HUB\4&2263344D&0,USB Root Hub,usbhub
+curtislaptop,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CB,PCI\VEN_8086&DEV_27CB&SUBSYS_01BD1028&REV_01\3&61AAA01&0&EB,Intel(R) 82801G (ICH7 Family) USB Universal Host Controller - 27CB,usbuhci
+curtislaptop,USB Root Hub,USB\ROOT_HUB\4&27A8915E&0,USB Root Hub,usbhub
+curtislaptop,Dell Wireless 350 Bluetooth Internal Card,USB\VID_413C&PID_8103\5&2CD8A58F&0&2,Dell Wireless 350 Bluetooth Internal Card,tosrfusb
+curtislaptop,Bluetooth RFBUS from TOSHIBA,BLUETOOTH\TOSRFBD\6&1E7B0289&0&TOSRFBD,Bluetooth RFBUS from TOSHIBA,tosrfbd
+curtislaptop,Bluetooth RFHID from TOSHIBA,BLUETOOTH\0004&0004\0,Bluetooth RFHID from TOSHIBA,Tosrfhid
+curtislaptop,Bluetooth RFBNEP from TOSHIBA,BLUETOOTH\0004&0006\0,Bluetooth RFBNEP from TOSHIBA,tosrfbnp
+curtislaptop,Bluetooth Personal Area Network from TOSHIBA,BLUETOOTH\0004&0007\0000,Bluetooth Personal Area Network from TOSHIBA,tosrfnds
+curtislaptop,Intel(R) 82801G (ICH7 Family) USB2 Enhanced Host Controller - 27CC,PCI\VEN_8086&DEV_27CC&SUBSYS_01BD1028&REV_01\3&61AAA01&0&EF,Intel(R) 82801G (ICH7 Family) USB2 Enhanced Host Controller - 27CC,usbehci
+curtislaptop,USB Root Hub,USB\ROOT_HUB20\4&1A83CD01&0,USB Root Hub,usbhub
+curtislaptop,Intel(R) 82801 PCI Bridge - 2448,PCI\VEN_8086&DEV_2448&SUBSYS_00000000&REV_E1\3&61AAA01&0&F0,Intel(R) 82801 PCI Bridge - 2448,pci
+curtislaptop,Broadcom 440x 10/100 Integrated Controller,PCI\VEN_14E4&DEV_170C&SUBSYS_01AF1028&REV_02\4&2FE911E8&0&00F0,Broadcom 440x 10/100 Integrated Controller,bcm4sbxp
+curtislaptop,OHCI Compliant IEEE 1394 Host Controller,PCI\VEN_1180&DEV_0832&SUBSYS_01BD1028&REV_00\4&2FE911E8&0&08F0,OHCI Compliant IEEE 1394 Host Controller,ohci1394
+curtislaptop,1394 Net Adapter,V1394\NIC1394\2A9C8541334FC000,1394 Net Adapter,NIC1394
+curtislaptop,SDA Standard Compliant SD Host Controller,PCI\VEN_1180&DEV_0822&SUBSYS_01BD1028&REV_19\4&2FE911E8&0&09F0,SDA Standard Compliant SD Host Controller,sdbus
+curtislaptop,Ricoh MMC Host Controller,PCI\VEN_1180&DEV_0843&SUBSYS_01BD1028&REV_01\4&2FE911E8&0&0AF0,Ricoh MMC Host Controller,rimmptsk
+curtislaptop,Ricoh Memory Stick Host Controller,PCI\VEN_1180&DEV_0592&SUBSYS_01BD1028&REV_0A\4&2FE911E8&0&0BF0,Ricoh Memory Stick Host Controller,rimsptsk
+curtislaptop,Ricoh xD-Picture Card Host Controller,PCI\VEN_1180&DEV_0852&SUBSYS_01BD1028&REV_05\4&2FE911E8&0&0CF0,Ricoh xD-Picture Card Host Controller,rismxdp
+curtislaptop,Intel(R) 82801GBM (ICH7-M) LPC Interface Controller - 27B9,PCI\VEN_8086&DEV_27B9&SUBSYS_00000000&REV_01\3&61AAA01&0&F8,Intel(R) 82801GBM (ICH7-M) LPC Interface Controller - 27B9,isapnp
+curtislaptop,ISAPNP Read Data Port,ISAPNP\READDATAPORT\0,ISAPNP Read Data Port,
+curtislaptop,Synaptics PS/2 Port Pointing Device,ACPI\PNP0F13\4&25E2FF18&0,Synaptics PS/2 Port Pointing Device,i8042prt
+curtislaptop,Standard 101/102-Key or Microsoft Natural PS/2 Keyboard,ACPI\PNP0303\4&25E2FF18&0,Standard 101/102-Key or Microsoft Natural PS/2 Keyboard,i8042prt
+curtislaptop,System CMOS/real time clock,ACPI\PNP0B00\4&25E2FF18&0,System CMOS/real time clock,
+curtislaptop,System timer,ACPI\PNP0100\4&25E2FF18&0,System timer,
+curtislaptop,System speaker,ACPI\PNP0800\4&25E2FF18&0,System speaker,
+curtislaptop,System board,ACPI\PNP0C01\4,System board,
+curtislaptop,Programmable interrupt controller,ACPI\PNP0000\4&25E2FF18&0,Programmable interrupt controller,
+curtislaptop,Direct memory access controller,ACPI\PNP0200\4&25E2FF18&0,Direct memory access controller,
+curtislaptop,Numeric data processor,ACPI\PNP0C04\4&25E2FF18&0,Numeric data processor,
+curtislaptop,Intel(R) 82801GBM/GHM (ICH7-M Family) Serial ATA Storage Controller - 27C4,PCI\VEN_8086&DEV_27C4&SUBSYS_01BD1028&REV_01\3&61AAA01&0&FA,Intel(R) 82801GBM/GHM (ICH7-M Family) Serial ATA Storage Controller - 27C4,pciide
+curtislaptop,Primary IDE Channel,PCIIDE\IDECHANNEL\4&7F93616&0&0,Primary IDE Channel,atapi
+curtislaptop,Disk drive,IDE\DISKTOSHIBA_MK6032GSX_______________________AS312D__\5&19C84639&0&0.0.0,TOSHIBA MK6032GSX,disk
+curtislaptop,Secondary IDE Channel,PCIIDE\IDECHANNEL\4&7F93616&0&1,Secondary IDE Channel,atapi
+curtislaptop,CD-ROM Drive,IDE\CDROMSONY_DVD+-RW_DW-Q58A____________________UDS1____\5&2C81F6DE&0&0.0.0,SONY DVD+-RW DW-Q58A,cdrom
+curtislaptop,Intel(R) 82801G (ICH7 Family) SMBus Controller - 27DA,PCI\VEN_8086&DEV_27DA&SUBSYS_01BD1028&REV_01\3&61AAA01&0&FB,Intel(R) 82801G (ICH7 Family) SMBus Controller - 27DA,
+curtislaptop,System board,ACPI\PNP0C01\2,System board,
+curtislaptop,System board,ACPI\PNP0C01\3,System board,
+curtislaptop,Bluetooth RFCOMM from TOSHIBA,ROOT\BLUETOOTH\0000,Bluetooth RFCOMM from TOSHIBA,tosrfcom
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\6,Toshiba BT Port (COM6),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\7,Toshiba BT Port (COM7),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\10,Toshiba BT Port (COM10),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\11,Toshiba BT Port (COM11),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\12,Toshiba BT Port (COM12),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\13,Toshiba BT Port (COM13),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\14,Toshiba BT Port (COM14),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\20,Toshiba BT Port (COM20),tosporte
+curtislaptop,Toshiba BT Port,BLUETOOTH\0004&0002\21,Toshiba BT Port (COM21),tosporte
+curtislaptop,Microsoft Composite Battery,ROOT\COMPOSITE_BATTERY\0000,Microsoft Composite Battery,Compbatt
+curtislaptop,Logical Disk Manager,ROOT\DMIO\0000,Logical Disk Manager,dmio
+curtislaptop,Volume Manager,ROOT\FTDISK\0000,Volume Manager,ftdisk
+curtislaptop,Generic volume,STORAGE\VOLUME\1&30A96598&0&SIGNATURE41AB2316OFFSET7E00LENGTH2730C00,Generic volume,
+curtislaptop,Generic volume,STORAGE\VOLUME\1&30A96598&0&SIGNATURE41AB2316OFFSET2738A00LENGTHCDC20F600,Generic volume,
+curtislaptop,Generic volume,STORAGE\VOLUME\1&30A96598&0&SIGNATURE41AB2316OFFSETCDE948000LENGTHC02F1000,Generic volume,
+curtislaptop,AEGIS Protocol (IEEE 802.1x) v3.4.9.0,ROOT\LEGACY_AEGISP\0000,AEGIS Protocol (IEEE 802.1x) v3.4.9.0,AegisP
+curtislaptop,AFD,ROOT\LEGACY_AFD\0000,AFD,AFD
+curtislaptop,APPDRV,ROOT\LEGACY_APPDRV\0000,APPDRV,APPDRV
+curtislaptop,1394 ARP Client Protocol,ROOT\LEGACY_ARP1394\0000,1394 ARP Client Protocol,Arp1394
+curtislaptop,Beep,ROOT\LEGACY_BEEP\0000,Beep,Beep
+curtislaptop,dmboot,ROOT\LEGACY_DMBOOT\0000,dmboot,dmboot
+curtislaptop,dmload,ROOT\LEGACY_DMLOAD\0000,dmload,dmload
+curtislaptop,Symantec Eraser Control driver,ROOT\LEGACY_EECTRL\0000,Symantec Eraser Control driver,eeCtrl
+curtislaptop,Fips,ROOT\LEGACY_FIPS\0000,Fips,Fips
+curtislaptop,Generic Packet Classifier,ROOT\LEGACY_GPC\0000,Generic Packet Classifier,Gpc
+curtislaptop,HTTP,ROOT\LEGACY_HTTP\0000,HTTP,HTTP
+curtislaptop,i2omgmt,ROOT\LEGACY_I2OMGMT\0000,i2omgmt,i2omgmt
+curtislaptop,IP Traffic Filter Driver,ROOT\LEGACY_IPFILTERDRIVER\0000,IP Traffic Filter Driver,IpFilterDriver
+curtislaptop,IP Network Address Translator,ROOT\LEGACY_IPNAT\0000,IP Network Address Translator,IpNat
+curtislaptop,IPSEC driver,ROOT\LEGACY_IPSEC\0000,IPSEC driver,IPSec
+curtislaptop,ksecdd,ROOT\LEGACY_KSECDD\0000,ksecdd,ksecdd
+curtislaptop,mdmxsdk,ROOT\LEGACY_MDMXSDK\0000,mdmxsdk,mdmxsdk
+curtislaptop,mnmdd,ROOT\LEGACY_MNMDD\0000,mnmdd,mnmdd
+curtislaptop,mountmgr,ROOT\LEGACY_MOUNTMGR\0000,mountmgr,mountmgr
+curtislaptop,NAVENG,ROOT\LEGACY_NAVENG\0000,NAVENG,NAVENG
+curtislaptop,NAVEX15,ROOT\LEGACY_NAVEX15\0000,NAVEX15,NAVEX15
+curtislaptop,NDIS System Driver,ROOT\LEGACY_NDIS\0000,NDIS System Driver,NDIS
+curtislaptop,Remote Access NDIS TAPI Driver,ROOT\LEGACY_NDISTAPI\0000,Remote Access NDIS TAPI Driver,NdisTapi
+curtislaptop,NDIS Usermode I/O Protocol,ROOT\LEGACY_NDISUIO\0000,NDIS Usermode I/O Protocol,Ndisuio
+curtislaptop,NDProxy,ROOT\LEGACY_NDPROXY\0000,NDProxy,NDProxy
+curtislaptop,NetBios over Tcpip,ROOT\LEGACY_NETBT\0000,NetBios over Tcpip,NetBT
+curtislaptop,Null,ROOT\LEGACY_NULL\0000,Null,Null
+curtislaptop,PartMgr,ROOT\LEGACY_PARTMGR\0000,PartMgr,PartMgr
+curtislaptop,ParVdm,ROOT\LEGACY_PARVDM\0000,ParVdm,ParVdm
+curtislaptop,Remote Access Auto Connection Driver,ROOT\LEGACY_RASACD\0000,Remote Access Auto Connection Driver,RasAcd
+curtislaptop,RDPCDD,ROOT\LEGACY_RDPCDD\0000,RDPCDD,RDPCDD
+curtislaptop,WLAN Transport,ROOT\LEGACY_S24TRANS\0000,WLAN Transport,s24trans
+curtislaptop,SAVRT,ROOT\LEGACY_SAVRT\0000,SAVRT,SAVRT
+curtislaptop,SAVRTPEL,ROOT\LEGACY_SAVRTPEL\0000,SAVRTPEL,SAVRTPEL
+curtislaptop,SymEvent,ROOT\LEGACY_SYMEVENT\0000,SymEvent,SymEvent
+curtislaptop,SYMREDRV,ROOT\LEGACY_SYMREDRV\0000,SYMREDRV,SYMREDRV
+curtislaptop,SYMTDI,ROOT\LEGACY_SYMTDI\0000,SYMTDI,SYMTDI
+curtislaptop,TCP/IP Protocol Driver,ROOT\LEGACY_TCPIP\0000,TCP/IP Protocol Driver,Tcpip
+curtislaptop,VgaSave,ROOT\LEGACY_VGASAVE\0000,VgaSave,VgaSave
+curtislaptop,VolSnap,ROOT\LEGACY_VOLSNAP\0000,VolSnap,VolSnap
+curtislaptop,Remote Access IP ARP Driver,ROOT\LEGACY_WANARP\0000,Remote Access IP ARP Driver,Wanarp
+curtislaptop,Audio Codecs,ROOT\MEDIA\MS_MMACM,Audio Codecs,audstub
+curtislaptop,Legacy Audio Drivers,ROOT\MEDIA\MS_MMDRV,Legacy Audio Drivers,audstub
+curtislaptop,Media Control Devices,ROOT\MEDIA\MS_MMMCI,Media Control Devices,audstub
+curtislaptop,Legacy Video Capture Devices,ROOT\MEDIA\MS_MMVCD,Legacy Video Capture Devices,audstub
+curtislaptop,Video Codecs,ROOT\MEDIA\MS_MMVID,Video Codecs,audstub
+curtislaptop,WAN Miniport (L2TP),ROOT\MS_L2TPMINIPORT\0000,WAN Miniport (L2TP),Rasl2tp
+curtislaptop,WAN Miniport (IP),ROOT\MS_NDISWANIP\0000,WAN Miniport (IP),NdisWan
+curtislaptop,WAN Miniport (PPPOE),ROOT\MS_PPPOEMINIPORT\0000,WAN Miniport (PPPOE),RasPppoe
+curtislaptop,WAN Miniport (PPTP),ROOT\MS_PPTPMINIPORT\0000,WAN Miniport (PPTP),PptpMiniport
+curtislaptop,Packet Scheduler Miniport,ROOT\MS_PSCHEDMP\0000,Broadcom 440x 10/100 Integrated Controller - Packet Scheduler Miniport,PSched
+curtislaptop,Packet Scheduler Miniport,ROOT\MS_PSCHEDMP\0001,WAN Miniport (IP) - Packet Scheduler Miniport,PSched
+curtislaptop,Packet Scheduler Miniport,ROOT\MS_PSCHEDMP\0002,Intel(R) PRO/Wireless 3945ABG Network Connection - Packet Scheduler Miniport,PSched
+curtislaptop,Packet Scheduler Miniport,ROOT\MS_PSCHEDMP\0003,Bluetooth Personal Area Network from TOSHIBA - Packet Scheduler Miniport,PSched
+curtislaptop,Direct Parallel,ROOT\MS_PTIMINIPORT\0000,Direct Parallel,Raspti
+curtislaptop,Terminal Server Device Redirector,ROOT\RDPDR\0000,Terminal Server Device Redirector,rdpdr
+curtislaptop,Terminal Server Keyboard Driver,ROOT\RDP_KBD\0000,Terminal Server Keyboard Driver,TermDD
+curtislaptop,Terminal Server Mouse Driver,ROOT\RDP_MOU\0000,Terminal Server Mouse Driver,TermDD
+curtislaptop,Plug and Play Software Device Enumerator,ROOT\SYSTEM\0000,Plug and Play Software Device Enumerator,swenum
+curtislaptop,Microsoft WINMM WDM Audio Compatibility Driver,SW\{CD171DE3-69E5-11D2-B56D-0000F8754380}\{9B365890-165F-11D0-A195-0020AFD156E4},Microsoft WINMM WDM Audio Compatibility Driver,wdmaud
+curtislaptop,Microsoft Kernel System Audio Device,SW\{A7C7A5B0-5AF3-11D1-9CED-00A024BF0407}\{9B365890-165F-11D0-A195-0020AFD156E4},Microsoft Kernel System Audio Device,sysaudio
+curtislaptop,Microsoft Kernel Wave Audio Mixer,SW\{B7EAFDC0-A680-11D0-96D8-00AA0051E51D}\{9B365890-165F-11D0-A195-0020AFD156E4},Microsoft Kernel Wave Audio Mixer,kmixer
+curtislaptop,Microcode Update Device,ROOT\SYSTEM\0001,Microcode Update Device,update
+curtislaptop,Microsoft System Management BIOS Driver,ROOT\SYSTEM\0002,Microsoft System Management BIOS Driver,mssmbios
+curtislaptop,OpenManage Client Instrumentation device driver,ROOT\SYSTEM\0003,OpenManage Client Instrumentation device driver,omci
